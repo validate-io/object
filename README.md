@@ -12,6 +12,9 @@ Object
 $ npm install validate.io-object
 ```
 
+For use in the browser, use [browserify](https://github.com/substack/node-browserify).
+
+
 ## Usage
 
 To use the module,
