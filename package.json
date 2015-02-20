@@ -28,7 +28,11 @@
     "validation",
     "validate",
     "valid",
-    "object"
+    "object",
+    "is",
+    "type",
+    "check",
+    "isobject"
   ],
   "bugs": {
     "url": "https://github.com/validate-io/object/issues"
