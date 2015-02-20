@@ -2,7 +2,7 @@ Object
 ======
 [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Coverage][coveralls-image]][coveralls-url] [![Dependencies][dependencies-image]][dependencies-url]
 
-> Validates if a value is a plain JavaScript object.
+> Validates if a value is a JavaScript object.
 
 
 
@@ -24,7 +24,7 @@ var isObject = require( 'validate.io-object' );
 
 #### isObject( value )
 
-Validates if a `value` is a plain JavaScript `object`.
+Validates if a `value` is a JavaScript `object`.
 
 ``` javascript
 var value = {};
@@ -32,6 +32,8 @@ var value = {};
 var bool = isObject( value );
 // returns true
 ```
+
+__Note__: in this implementation, `arrays` and `null` are __not__ considered valid `objects`.
 
 
 ## Examples
