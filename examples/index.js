@@ -1,19 +1,12 @@
+'use strict';
 
 var isObject = require( './../lib' );
 
-// Positive validation:
 console.log( isObject( {} ) );
+// returns true
 
-/**
-* Returns:
-*	true
-*/
-
-// Negative validation:
 console.log( isObject( [] ) );
+// returns false
 
-/**
-* Returns:
-*	false
-*/
-
+console.log( isObject( null ) );
+// returns false

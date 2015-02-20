@@ -1,3 +1,5 @@
+/* global require, describe, it */
+'use strict';
 
 // MODULES //
 
@@ -17,7 +19,6 @@ var expect = chai.expect,
 // TESTS //
 
 describe( 'validate.io-object', function tests() {
-	'use strict';
 
 	// TESTS //
 
@@ -31,14 +32,15 @@ describe( 'validate.io-object', function tests() {
 
 	it( 'should negatively validate', function test() {
 		var values = [
-				5,
-				[],
-				true,
-				'5',
-				null,
-				function(){},
-				undefined
-			];
+			5,
+			[],
+			true,
+			'5',
+			null,
+			NaN,
+			function(){},
+			undefined
+		];
 
 		for ( var i = 0; i < values.length; i++ ) {
 			assert.ok( !isObject( values[i] ) );
