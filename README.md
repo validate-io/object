@@ -92,7 +92,7 @@ $ make view-cov
 
 ## Copyright
 
-Copyright &copy; 2014. Athan Reines.
+Copyright &copy; 2014-2015. Athan Reines.
 
 
 
