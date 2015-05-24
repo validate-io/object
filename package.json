@@ -48,10 +48,5 @@
     "jshint": "^2.5.10",
     "jshint-stylish": "^1.0.0"
   },
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "http://www.opensource.org/licenses/MIT"
-    }
-  ]
+  "license": "MIT"
 }
